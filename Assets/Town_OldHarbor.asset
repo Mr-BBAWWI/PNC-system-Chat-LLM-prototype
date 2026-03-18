@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37ead2a6cd45341859aaac3c63ffe86d, type: 3}
+  m_Name: Town_OldHarbor
+  m_EditorClassIdentifier: Assembly-CSharp::TownDefinition
+  townId: town_oldharbor
+  displayName: "\uC62C\uB4DC \uD558\uBC84"
+  townMapSprite: {fileID: -6565816082398603940, guid: eacc15a648e88482facb97e5a63fff5e, type: 3}
+  npcSlots:
+  - npc: {fileID: 11400000, guid: f2555f73afea349fc9fa7b8c0a833a4f, type: 2}
+    anchoredPosition: {x: 220, y: 80}
+  - npc: {fileID: 11400000, guid: d6fcb8a3e1af34d34a6efcff4237dc28, type: 2}
+    anchoredPosition: {x: -160, y: -40}
