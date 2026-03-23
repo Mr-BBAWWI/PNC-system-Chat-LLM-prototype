@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9682e0ffc88e14b90a27ad46c4b990fc, type: 3}
+  m_Name: PersuasionRules_Default
+  m_EditorClassIdentifier: Assembly-CSharp::PersuasionRuleTable
+  rules:
+  - tagId: empathy
+    displayName: "\uACF5\uAC10"
+    trustDelta: 10
+    resistanceDelta: -5
+    persuasionDelta: 12
+    designerNote: "\uC0C1\uB300 \uAC10\uC815\uC5D0 \uACF5\uAC10\uD558\uB294 \uD45C\uD604"
+  - tagId: evidence
+    displayName: "\uADFC\uAC70 \uC81C\uC2DC"
+    trustDelta: 6
+    resistanceDelta: -2
+    persuasionDelta: 8
+    designerNote: "\uB17C\uB9AC\uB098 \uB2E8\uC11C\uB97C \uC81C\uC2DC\uD558\uB294
+      \uC811\uADFC"
+  - tagId: pressure
+    displayName: "\uC555\uBC15"
+    trustDelta: -6
+    resistanceDelta: 10
+    persuasionDelta: -8
+    designerNote: "\uAC15\uD558\uAC8C \uBC00\uC5B4\uBD99\uC774\uB294 \uD45C\uD604"
+  - tagId: confusion
+    displayName: "\uD63C\uB780"
+    trustDelta: -2
+    resistanceDelta: 4
+    persuasionDelta: -4
+    designerNote: "\uC9C8\uBB38 \uC758\uB3C4\uB098 \uB9E5\uB77D\uC774 \uBD88\uBD84\uBA85\uD55C
+      \uACBD\uC6B0"

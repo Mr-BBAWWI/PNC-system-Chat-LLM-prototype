@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a099ef93eea54305a2ece196a3f4719, type: 3}
+  m_Name: Scenario_FirstDemo
+  m_EditorClassIdentifier: Assembly-CSharp::StoryScenarioDefinition
+  scenarioId: scenario_first_demo
+  displayName: "\uCCAB \uC124\uB4DD \uB370\uBAA8"
+  situationSummary: "\uD50C\uB808\uC774\uC5B4\uB294 \uD55C \uB9C8\uC744\uC5D0\uC11C
+    NPC\uB4E4\uC744 \uC124\uB4DD\uD558\uBA70 \uC2A4\uD1A0\uB9AC\uB97C \uC9C4\uD589\uD55C\uB2E4.
+    \uC774\uBC88 \uC7A5\uBA74\uC740 \uAD50\uC721\uD615 \uC124\uB4DD \uC2DC\uC2A4\uD15C\uC744
+    \uC2DC\uD5D8\uD558\uAE30 \uC704\uD55C \uCCAB \uB370\uBAA8 \uC7A5\uBA74\uC774\uB2E4."
+  playerGoal: "NPC\uC640 \uB300\uD654\uD558\uBA70 \uC2E0\uB8B0\uB97C \uC5BB\uACE0,
+    \uC2A4\uD1A0\uB9AC \uC9C4\uD589\uC5D0 \uD544\uC694\uD55C \uD611\uC870\uB97C \uC774\uB04C\uC5B4\uB0B8\uB2E4."
+  successConditionText: "\uD575\uC2EC NPC \uC911 \uD55C \uBA85 \uC774\uC0C1\uC774
+    \uD50C\uB808\uC774\uC5B4\uC5D0\uAC8C \uD611\uC870\uC801\uC778 \uC0C1\uD0DC\uAC00
+    \uB41C\uB2E4."
+  failureConditionText: "NPC\uAC00 \uACC4\uC18D \uBC29\uC5B4\uC801\uC774\uC5B4\uC11C
+    \uB300\uD654\uAC00 \uC9C4\uC804\uB418\uC9C0 \uC54A\uB294\uB2E4."
+  startingTown: {fileID: 11400000, guid: 0a8110a24d71140d08cbe32a3db7e40c, type: 2}
+  involvedNpcs:
+  - {fileID: 11400000, guid: d6fcb8a3e1af34d34a6efcff4237dc28, type: 2}
+  - {fileID: 11400000, guid: f2555f73afea349fc9fa7b8c0a833a4f, type: 2}
